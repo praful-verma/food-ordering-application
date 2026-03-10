@@ -1,116 +1,109 @@
-# 🍔 Food Ordering Application
+# Food Ordering Application
 
-A full-stack **Food Ordering Web Application** that allows users to browse food items, add them to cart, and place orders seamlessly. The system provides an intuitive interface for customers and efficient order management for the backend.
+This project is a **web-based food ordering application** where users can browse food items, add them to their cart, and place orders. The main objective of this project was to understand how a full stack web application works and how frontend and backend communicate using APIs.
 
----
-
-## 🚀 Features
-
-* Browse available food items
-* Add and remove items from cart
-* Place food orders easily
-* Responsive and user-friendly interface
-* Backend APIs for managing orders and food items
-* Secure data handling
+The application provides a simple and user-friendly interface for ordering food online.
 
 ---
 
-## 🛠️ Tech Stack
+## Features
 
-### Frontend
+* View available food items
+* Add items to cart
+* Remove items from cart
+* Place food orders
+* Backend APIs for managing food items and orders
+
+---
+
+## Tech Stack
+
+**Frontend**
 
 * HTML
 * CSS
 * JavaScript
 
-### Backend
+**Backend**
 
 * Node.js
 * Express.js
 
-### Database
+**Database**
 
 * MongoDB
 
+**Tools**
+
+* Git
+* GitHub
+
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 food-ordering-application
 │
-├── client/            # Frontend files
-├── server/            # Backend APIs
-├── models/            # Database models
+├── frontend/          # Frontend files
+├── backend/           # Backend server and APIs
+├── models/            # Database schemas
 ├── routes/            # API routes
-├── controllers/       # Business logic
+├── controllers/       # Application logic
 ├── package.json
 └── README.md
 ```
 
 ---
 
-## ⚙️ Installation and Setup
+## Installation and Setup
 
-### 1️⃣ Clone the repository
+### 1. Clone the repository
 
-```bash
+```
 git clone https://github.com/praful-verma/food-ordering-application.git
 ```
 
-### 2️⃣ Navigate to the project folder
+### 2. Go to the project folder
 
-```bash
+```
 cd food-ordering-application
 ```
 
-### 3️⃣ Install dependencies
+### 3. Install dependencies
 
-```bash
+```
 npm install
 ```
 
-### 4️⃣ Run the application
+### 4. Run the application
 
-```bash
+```
 npm start
+```
+
+The server will start on:
+
+```
+http://localhost:5000
 ```
 
 ---
 
-## 🌐 Usage
+## Future Improvements
 
-1. Open the application in your browser.
-2. Browse the available food items.
-3. Add items to your cart.
-4. Place an order.
+Some features that can be added in the future:
 
----
-
-## 📌 Future Improvements
-
-* User authentication (Login/Signup)
+* User login and signup
 * Online payment integration
-* Order tracking
-* Admin dashboard
-* Food item search and filters
+* Order tracking system
+* Admin dashboard for managing food items
 
 ---
 
-## 🤝 Contributing
-
-Contributions are welcome!
-If you'd like to improve the project, feel free to fork the repository and submit a pull request.
-
----
-
-## 📧 Contact
+## Author
 
 **Praful Verma**
 
-* GitHub: https://github.com/praful-verma
-* Email: [vpraful007@gmail.com](mailto:vpraful007@gmail.com)
-
----
-
-⭐ If you like this project, please consider giving it a star on GitHub!
+GitHub: https://github.com/praful-verma
+Email: [vpraful007@gmail.com](mailto:vpraful007@gmail.com)
