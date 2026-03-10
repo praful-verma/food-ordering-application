@@ -42,19 +42,13 @@ The application provides a simple and user-friendly interface for ordering food 
 
 ## Project Structure
 
-```
-food-ordering-application
-│
-├── frontend/          # Frontend files
-├── backend/           # Backend server and APIs
-├── models/            # Database schemas
-├── routes/            # API routes
-├── controllers/       # Application logic
-├── package.json
-└── README.md
-```
+Main folders used in the project:
 
----
+- **frontend** – Contains the UI part of the application  
+- **backend** – Node.js and Express server  
+- **models** – Database schemas  
+- **routes** – API routes for handling requests  
+- **controllers** – Business logic for the application
 
 ## Installation and Setup
 
